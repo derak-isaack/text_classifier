@@ -15,9 +15,9 @@ nltk.download('stopwords')
 
 stop_words = set(stopwords.words('english'))
 
-st.set_page_config(page_title="text-classifier", layout="wide")
+st.set_page_config(page_title="text-classifier", layout="centered", page_icon="📝")
 
-st.title("Text clasiffier application")
+st.title("Text📝 clasiffier application")
 
 #Load downloaded keras model from google collab
 text_model = tf.keras.models.load_model('text_model.keras')
